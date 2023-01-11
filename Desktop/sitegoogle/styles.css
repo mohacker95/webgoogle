@@ -1,0 +1,44 @@
+body{
+    background: #fff;
+    color: #000;
+    font-family: arial,sans-serif;
+    font-size:13px;
+  }
+  
+  *{
+    /* margin:0;
+    padding:0; */
+    /* outline: 1px solid red; */
+    text-decoration:none;
+  }
+  
+  .conteneur_boutons{
+    display:flex;
+    justify-content:right;
+    align-items:center;
+     height:48px;
+  }
+  
+  .box{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-left : 15px;  
+  }
+  
+  .box:hover{
+    text-decoration:underline;
+  }
+  
+  box a:visited{
+    color: #000;
+  }
+  
+  .applis{
+    margin-left:15px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    border-radius:50%;
+    padding: 8px;
+  }
